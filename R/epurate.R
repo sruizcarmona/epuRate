@@ -96,7 +96,7 @@ BAKER <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
 
    # call the base html_document function
    rmarkdown::html_document( theme= "cosmo",
-                                includes = includes(before_body = header)
+                                includes = includes(before_body = header),
                                 template = template,
                                 css= css,
                                 toc= toc,
