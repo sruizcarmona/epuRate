@@ -60,12 +60,19 @@ a:hover {
 }
 
 /* added by SRC */
-.list-group-item.active, .list-group-item.active:hover {
+.list-group-item.active:hover {
     z-index: 2;
     color: #ffffff;
     background-color: #185ea6;
-    /*border-color: #dddddd;*/
+    border-color: #d43347;
 }
+
+.list-group-item.active:focus {
+     color: #185ea6;
+     background-color: white;
+     border-left: solid;
+     border-color: #d43347;
+ }
 
 /* ------ This is just to fix the bug on Safari where table of content is on top of content */
 .toc-content {
