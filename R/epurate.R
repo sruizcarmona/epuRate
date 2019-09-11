@@ -92,10 +92,12 @@ BAKER <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
    # get the locations of resource files located within the package
    css <- system.file("rmarkdown", "templates", "BAKER" ,"resources", "style.css", package = "epuRate")
    template <- system.file("rmarkdown", "templates", "BAKER" ,"resources", "template_baker.html", package = "epuRate")
+   header <- system.file("rmarkdown", "templates", "BAKER" ,"resources", "header.html", package = "epuRate")
 
    # call the base html_document function
    rmarkdown::html_document( theme= "cosmo",
-                                template= template,
+                                includes = includes(before_body = header)
+                                template = template,
                                 css= css,
                                 toc= toc,
                                 toc_float = TRUE,
