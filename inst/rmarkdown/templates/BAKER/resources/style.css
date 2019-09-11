@@ -80,15 +80,6 @@ a:hover {
      margin-right: auto;
  }
 
- /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-.parallax {
-    background-attachment: scroll;
-  }
-}
-
-
-
 /* ------ This is just to fix the bug on Safari where table of content is on top of content */
 .toc-content {
   margin-left: 230px
