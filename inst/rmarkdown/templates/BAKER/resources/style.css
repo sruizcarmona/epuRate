@@ -60,7 +60,7 @@ a:hover {
 }
 
 /* added by SRC */
-.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+.list-group-item.active, .list-group-item.active:hover {
     z-index: 2;
     color: #ffffff;
     background-color: #185ea6;
