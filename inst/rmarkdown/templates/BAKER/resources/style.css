@@ -74,12 +74,6 @@ a:hover {
      border-color: #d43347;
  }
  
- .main-container {
-     max-width: 100% !important;
-     margin-left: auto;
-     margin-right: auto;
- }
-
 /* ------ This is just to fix the bug on Safari where table of content is on top of content */
 .toc-content {
   margin-left: 230px
