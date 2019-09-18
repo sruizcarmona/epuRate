@@ -9,7 +9,7 @@ h1 {
 h1.title {
   text-align: center;
   padding-top: 60px;
-  margin-top: 180px;
+  margin-top: 140px;
 }
 
 pre {
@@ -36,7 +36,7 @@ a:hover {
 
 /* ---------- TOC ----------------- */
 #TOC {
-  top: 30%;
+  top: 18%;
   position: fixed;
   width: 210px;
 }
