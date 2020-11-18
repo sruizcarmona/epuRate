@@ -87,7 +87,7 @@ QIMR <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
 
 ## SRC BAKER TEMPLATE
  # Features of uq Template
-BAKER <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
+BAKER <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE,toc_depth=2) {
 
    # get the locations of resource files located within the package
    css <- system.file("rmarkdown", "templates", "BAKER" ,"resources", "style.css", package = "epuRate")
