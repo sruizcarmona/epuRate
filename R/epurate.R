@@ -105,7 +105,7 @@ BAKER <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE,toc_de
                                 number_sections= number_sections,
                                 df_print = "paged",
                                 code_folding = code_folding,
-                                mathjax = "default",
+                                mathjax = "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
                              )
  }
 
