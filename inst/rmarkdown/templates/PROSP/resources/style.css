@@ -133,7 +133,7 @@ div.infonote {
   color: #014d5b;
   background-color: #bed3ec;
   border: solid 5px #014d5b;
-  font-size: large;
+  font-size: medium;
   background-image: url("img/info-blue.png");
   line-height: 1.4;
 }
@@ -149,7 +149,7 @@ div.question {
   color: #455560;
   background-color: #FAD3CF;
   border: solid 5px #455560;
-  font-size: large;
+  font-size: medium;
   background-image: url("img/question-red.png");
 }
 
@@ -164,10 +164,25 @@ div.update {
   color: #014d5b;
   background-color: #90EF77;
   border: solid 5px #90EF77;
-  font-size: large;
+  font-size: medium;
   line-height: 1.4;
 }
  
+div.updateinv {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 20px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 50px;
+  color: #fff;
+  background-color: #014d5b;
+  border: solid 5px #014d5b;
+  font-size: medium;
+  line-height: 1.4;
+}
+
 .subtitle {
   text-align: center;
 }
