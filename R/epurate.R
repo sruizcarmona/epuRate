@@ -129,7 +129,7 @@ BAKER_nobioinfo <- function(toc = TRUE, code_folding = "hide", number_sections=T
                              )
  }
 
-PROSP <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE,toc_depth=2, cssextra = NULL) {
+PROSP <- function(toc = TRUE, code_folding = "hide", number_sections=FALSE,toc_depth=2, cssextra = NULL) {
 
     # get the locations of resource files located within the package
     css <- system.file("rmarkdown", "templates", "PROSP" ,"resources", "style.css", package = "epuRate")
