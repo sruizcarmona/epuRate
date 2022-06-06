@@ -128,3 +128,24 @@ BAKER_nobioinfo <- function(toc = TRUE, code_folding = "hide", number_sections=T
                                 code_folding = code_folding,
                              )
  }
+
+PROSP <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE,toc_depth=2, cssextra = NULL) {
+
+    # get the locations of resource files located within the package
+    css <- system.file("rmarkdown", "templates", "PROSP" ,"resources", "style.css", package = "epuRate")
+    template <- system.file("rmarkdown", "templates", "PROSP" ,"resources", "template_prosp.html", package = "epuRate")
+    header <- system.file("rmarkdown", "templates", "PROSP" ,"resources", "header.html", package = "epuRate")
+
+    # call the base html_document function
+    rmarkdown::html_document( theme= "paper",
+                                 #includes = includes(before_body = header),
+                                 template = template,
+                                 css= if(is.null(cssextra)){css} else {c(css, cssextra)},
+                                 toc= toc,
+                                 toc_float = TRUE,
+                                 toc_depth = toc_depth,
+                                 number_sections= number_sections,
+                                 df_print = "paged",
+                                 code_folding = code_folding,
+                              )
+}
