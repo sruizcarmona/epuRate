@@ -135,6 +135,7 @@ div.infonote {
   border: solid 5px #014d5b;
   font-size: large;
   background-image: url("img/info-blue.png");
+  line-height: 1.4;
 }
  
 div.question {
@@ -164,7 +165,7 @@ div.update {
   background-color: #90EF77;
   border: solid 5px #90EF77;
   font-size: large;
-  line-height: 1.1;
+  line-height: 1.4;
 }
  
 .subtitle {
