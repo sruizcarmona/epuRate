@@ -113,6 +113,11 @@ div.datatables {
   border-color: #90EF77;
   border-style: solid;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pagedtable-wrapper {
+    margin-bottom: 20px;
 }
 
 img.tableimage {
