@@ -149,3 +149,24 @@ PROSP <- function(toc = TRUE, code_folding = "hide", number_sections=FALSE,toc_d
                                  code_folding = code_folding,
                               )
 }
+
+CHA <- function(toc = TRUE, code_folding = "hide", number_sections=FALSE,toc_depth=2, cssextra = NULL) {
+
+    # get the locations of resource files located within the package
+    css <- system.file("rmarkdown", "templates", "CHA" ,"resources", "style.css", package = "epuRate")
+    template <- system.file("rmarkdown", "templates", "CHA" ,"resources", "template_cha.html", package = "epuRate")
+    header <- system.file("rmarkdown", "templates", "CHA" ,"resources", "header.html", package = "epuRate")
+
+    # call the base html_document function
+    rmarkdown::html_document( theme= "paper",
+                                 #includes = includes(before_body = header),
+                                 template = template,
+                                 css= if(is.null(cssextra)){css} else {c(css, cssextra)},
+                                 toc= toc,
+                                 toc_float = TRUE,
+                                 toc_depth = toc_depth,
+                                 number_sections= number_sections,
+                                 df_print = "paged",
+                                 code_folding = code_folding,
+                              )
+}
