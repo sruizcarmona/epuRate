@@ -8,7 +8,7 @@ twitter: "r_graph_gallery"
 github: "holtzy"
 home: "www.yan-holtz.com"
 output:
-  epuRate::BAKER:
+  epuRate::CHA:
     toc: TRUE
     number_sections: FALSE
     code_folding: "hide"
