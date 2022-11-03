@@ -25,10 +25,10 @@ pre {
 
 /* ---------- Links ----------------- */
 a {
-  color: #d43347;
+  color: #f58c39;
 }
 a:hover {
-  color: #d43347;
+  color: #f58c39;
 }
 
 
@@ -46,16 +46,16 @@ a:hover {
   border-radius: 0px;
 }
 .list-group-item.active {
-    color: #185ea6;
+    color: #00447b;
     background-color: white;
     border-left: solid;
-    border-color: #d43347;
+    border-color: #f58c39;
 }
 .list-group-item:hover {
-    color: #d43347;
+    color: #f58c39;
     background-color: white;
     border-left: solid;
-    border-color: #d43347;
+    border-color: #f58c39;
 }
 .tocify-extend-page {
   display: none;
@@ -65,15 +65,15 @@ a:hover {
 .list-group-item.active:hover {
     z-index: 2;
     color: #ffffff;
-    background-color: #185ea6;
-    border-color: #d43347;
+    background-color: #00447b;
+    border-color: #f58c39;
 }
 
 .list-group-item.active:focus {
-     color: #185ea6;
+     color: #00447b;
      background-color: white;
      border-left: solid;
-     border-color: #d43347;
+     border-color: #f58c39;
  }
  
 /* ------ This is just to fix the bug on Safari where table of content is on top of content */
@@ -82,34 +82,38 @@ a:hover {
 }
 
 
-
-
 /* ---------- Button ----------------- */
 .btn {
     border-width: 0 0px 0px 0px;
     font-weight: normal;
     text-transform: ;
-    color: #185ea6;
+    color: #00447b;
 }
 .btn-default {
-    color: #185ea6;
+    color: #00447b;
     background-color: #ffffff;
     border-color: #ffffff;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: #185ea6;
+    background-color: #00447b;
 }
+
+/* CHA COLORS
+orange      #f58c39
+light blue  #00b3db
+dark blue   #00447b
+bg-grey     #eeebe7 */
 
 /* added by SRC FROM MY.CSS rest of reports */
 div.datatables {
-  border-color: #d43347;
+  border-color: #00b3db;
   border-style: solid;
   padding: 10px;
 }
 
 img.tableimage {
-  border-color: #d43347;
+  border-color: #00b3db;
   border-style: solid;
   border-width: inherit;
   padding: 10px;
@@ -168,7 +172,7 @@ hr {
     border: none;
     height: 3px;
     /* Set the hr color */
-    color: #d43347; /* old IE */
-    background-color: #d43347; /* Modern Browsers */
+    color: #00b3db; /* old IE */
+    background-color: #00b3db; /* Modern Browsers */
 }
 
