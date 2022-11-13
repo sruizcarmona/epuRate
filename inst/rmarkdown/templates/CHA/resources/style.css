@@ -127,11 +127,11 @@ div.infonote {
   background-repeat: no-repeat;
   background-position: 15px center;
   min-height: 120px;
-  color: #185ea6;
-  background-color: #bed3ec;
-  border: solid 5px #185ea6;
+  color: #00447b;
+  background-color: #00447b42;
+  border: solid 5px #00447b;
   font-size: large;
-  background-image: url("img/info-blue.png");
+  background-image: url("img/info.png");
 }
  
 div.question {
@@ -143,10 +143,10 @@ div.question {
   background-position: 15px center;
   min-height: 120px;
   color: #455560;
-  background-color: #FAD3CF;
+  background-color: #00b3db2e;
   border: solid 5px #455560;
   font-size: large;
-  background-image: url("img/question-red.png");
+  background-image: url("img/question.png");
 }
 
 div.update {
@@ -158,8 +158,8 @@ div.update {
   background-position: 15px center;
   min-height: 50px;
   color: #fff;
-  background-color: #d43347;
-  border: solid 5px #d43347;
+  background-color: #f58c39;
+  border: solid 5px #f58c39;
   font-size: large;
   line-height: 1.1;
 }
