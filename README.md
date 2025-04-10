@@ -18,7 +18,7 @@ Note that a specific version is available for:
 
 - CHA
 - BAKER
-- CCHA
+- CCHA-LUKS
 
 
 <br><br><br>
