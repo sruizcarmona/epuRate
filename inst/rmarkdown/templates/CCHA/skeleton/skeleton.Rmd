@@ -1,5 +1,5 @@
 ---
-title: "CHA R Markdown template"
+title: "CCHA R Markdown template"
 author: "[Yan Holtz](https://github.com/holtzy)"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 mail: "yan.holtz.data@gmail.com"
@@ -8,7 +8,7 @@ twitter: "r_graph_gallery"
 github: "holtzy"
 home: "www.yan-holtz.com"
 output:
-  epuRate::CHA:
+  epuRate::CCHA:
     toc: TRUE
     number_sections: FALSE
     code_folding: "hide"
