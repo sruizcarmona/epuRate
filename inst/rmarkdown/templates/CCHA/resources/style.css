@@ -99,21 +99,22 @@ a:hover {
     background-color: #183750;
 }
 
-/* CHA COLORS
+/* CCHA COLORS
 orange      #f18422
 light blue  #00b3db
+teal        #269c90
 dark blue   #183750
 bg-grey     #eeebe7 */
 
 /* added by SRC FROM MY.CSS rest of reports */
 div.datatables {
-  border-color: #00b3db;
+  border-color: #269c90;
   border-style: solid;
   padding: 10px;
 }
 
 img.tableimage {
-  border-color: #00b3db;
+  border-color: #269c90;
   border-style: solid;
   border-width: inherit;
   padding: 10px;
