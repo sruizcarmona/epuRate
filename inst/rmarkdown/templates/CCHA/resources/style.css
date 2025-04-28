@@ -25,10 +25,10 @@ pre {
 
 /* ---------- Links ----------------- */
 a {
-  color: #f58c39;
+  color: #f18422;
 }
 a:hover {
-  color: #f58c39;
+  color: #f18422;
 }
 
 
@@ -46,16 +46,16 @@ a:hover {
   border-radius: 0px;
 }
 .list-group-item.active {
-    color: #00447b;
+    color: #183750;
     background-color: white;
     border-left: solid;
-    border-color: #f58c39;
+    border-color: #f18422;
 }
 .list-group-item:hover {
-    color: #f58c39;
+    color: #f18422;
     background-color: white;
     border-left: solid;
-    border-color: #f58c39;
+    border-color: #f18422;
 }
 .tocify-extend-page {
   display: none;
@@ -65,15 +65,15 @@ a:hover {
 .list-group-item.active:hover {
     z-index: 2;
     color: #ffffff;
-    background-color: #00447b;
-    border-color: #f58c39;
+    background-color: #183750;
+    border-color: #f18422;
 }
 
 .list-group-item.active:focus {
-     color: #00447b;
+     color: #183750;
      background-color: white;
      border-left: solid;
-     border-color: #f58c39;
+     border-color: #f18422;
  }
  
 /* ------ This is just to fix the bug on Safari where table of content is on top of content */
@@ -87,22 +87,22 @@ a:hover {
     border-width: 0 0px 0px 0px;
     font-weight: normal;
     text-transform: ;
-    color: #00447b;
+    color: #183750;
 }
 .btn-default {
-    color: #00447b;
+    color: #183750;
     background-color: #ffffff;
     border-color: #ffffff;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: #00447b;
+    background-color: #183750;
 }
 
 /* CHA COLORS
-orange      #f58c39
+orange      #f18422
 light blue  #00b3db
-dark blue   #00447b
+dark blue   #183750
 bg-grey     #eeebe7 */
 
 /* added by SRC FROM MY.CSS rest of reports */
@@ -127,9 +127,9 @@ div.infonote {
   background-repeat: no-repeat;
   background-position: 15px center;
   min-height: 120px;
-  color: #00447b;
-  background-color: #00447b42;
-  border: solid 5px #00447b;
+  color: #183750;
+  background-color: #18375042;
+  border: solid 5px #183750;
   font-size: large;
   background-image: url("img/info.png");
 }
@@ -158,8 +158,8 @@ div.update {
   background-position: 15px center;
   min-height: 50px;
   color: #fff;
-  background-color: #f58c39;
-  border: solid 5px #f58c39;
+  background-color: #f18422;
+  border: solid 5px #f18422;
   font-size: large;
   line-height: 1.1;
 }
@@ -172,7 +172,7 @@ hr {
     border: none;
     height: 3px;
     /* Set the hr color */
-    color: #00b3db; /* old IE */
-    background-color: #00b3db; /* Modern Browsers */
+    color: #f18422; /* old IE */
+    background-color: #f18422; /* Modern Browsers */
 }
 
